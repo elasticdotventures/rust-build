@@ -255,7 +255,7 @@ if [[ ! -z "${EXTRA_CRATES}" ]]; then
     cargo install ${EXTRA_CRATES}
 fi
 
-echo "Add following command to ~/.zshrc"
+echo "Add following command to ~/.zshrc or ~/.bashrc"
 echo export PATH=\"${IDF_TOOL_XTENSA_ELF_CLANG}/bin/:\$PATH\"
 echo export LIBCLANG_PATH=\"${IDF_TOOL_XTENSA_ELF_CLANG}/lib/\"
 # Workaround of https://github.com/espressif/esp-idf/issues/7910
